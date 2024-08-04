@@ -40,7 +40,11 @@ def welcome():
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
         f"/api/v1.0/<start><br/>"
+        f"- Returns min, max, and avg temps from the start date.<br/>"
+        f"  - Example: /api/v1.0/2017-01-01<br/><br/>"
         f"/api/v1.0/<start>/<end><br/>"
+        f"- Returns min, max, and avg temps between the start and end dates.<br/>"
+        f"  - Example: /api/v1.0/2017-01-01/2017-01-07"
     )
 
 # Precipitation route
